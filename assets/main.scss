@@ -1,0 +1,34 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+body {
+    background-color: #cccccc;
+}
+
+header.site-header {
+    background-color: #333333;
+    color: white;
+}
+
+header.site-header .site-title,
+header.site-header .site-title:visited,
+header.site-header .page-link,
+header.site-header .page-link:visited {
+    color: white;
+}
+
+main.page-content {
+    padding-top: 0px;
+}
+
+.wrapper { 
+    max-width: calc(1030px - (30px * 2));
+}
+
+main .wrapper { 
+    background-color: white;
+    padding-top: 30px;
+}
