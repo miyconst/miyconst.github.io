@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AMD Radeon Instinct MI8 (R9 Fury / Nano) – detailed review and tests, cooling, BIOS, drivers."
+title:  "AMD Radeon Instinct MI8 (R9 Fury / Nano) – detailed review and tests, cooling, BIOS, drivers"
 date:   2022-02-09 10:48:42 +0100
 categories: amd gpu r9 nano fury fiji gcn review radeon instinct mi8 wstore
 background: "#fa4949"

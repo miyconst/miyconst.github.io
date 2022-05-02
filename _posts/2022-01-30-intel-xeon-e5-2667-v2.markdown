@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Xeon E5-2667 V2 – what is it capable of in 2022? Comparing with E5-2690 V3 and i5-10400"
+date:   2022-01-30 03:51:48 +0100
+categories: intel xeon e5-2667v2 lga2011 x79 aliexpress cpu benchmark
+background: "#139aff"
+---
+
+## Affiliated links
+
+Please consider supporting my work by using the following AliExpress links:
+
+- [Intel Xeon E5-2667 V2](https://s.click.aliexpress.com/e/_AC7UAn).
+- [Intel Xeon E5-2660 V3](https://s.click.aliexpress.com/e/_9wohyR).
+- [Intel Core i5-10400](https://s.click.aliexpress.com/e/_AsoYnZ).
+- [Huananzhi X99-TF](https://s.click.aliexpress.com/e/_97l0sq).
+
+## YouTube Videos
+
+<iframe width="700" height="394" src="https://www.youtube.com/embed/4FZTLf7eL1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="700" height="394" src="https://www.youtube.com/embed/NtFXCyNiX20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Google Slides Presentation
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRmJACih0KI6VQwR4et2wH7t42OM8bRj54ID1-wcKJYEJ72jWWaNR3nBny7iUq3oZYi3DUj5SKyUaLd/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

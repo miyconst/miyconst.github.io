@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Core i7-8700B (E-2186M, QTJ2), test and comparison against Core i5-10400 & Xeon E5-2690 V3."
+title:  "Core i7-8700B (E-2186M, QTJ2), test and comparison against Core i5-10400 & Xeon E5-2690 V3"
 date:   2022-02-21 14:41:34 +0100
 categories: i7 lga1151 mutant aliexpress i7-8700 i7-8700b qtj2 xeon e-2186M bga1440
 background: "#0071c5"

@@ -1,0 +1,250 @@
+---
+layout: post
+title:  "Xeon E5-2690 V3 vs Core i5-10400F | 20 Games | 1080p | AMD RX 6800XT"
+date:   2021-09-11 13:28:23 +0100
+categories: x99 xeon e5-2690v3 i5 gaming i5-10400 lga1200 qqls lga1151 b365 b560 z590
+background: "#139aff"
+---
+
+# Xeon E5-2690 V3 vs Core i5-10400F
+
+Today I am comparing a modern 6 cores CPU against an aging 12 cores beast. The compared CPUs are Intel Core i5-10400F and Intel Xeon E5-2690 V3. To make this comparison a bit more interesting, I also add AMD Ryzen 5 5600X and LGA 1151 mutant Core i9-9900k QQLS into the mix. Please note that Ryzen 5 5600X was tested on a B450 motherboard that does not support PCI-E 4.0, on a PCI-E 4.0 motherboard 5600X would yield slightly better results.
+
+## YouTube video
+
+<iframe width="700" height="394" src="https://www.youtube.com/embed/4gniO8BWy98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## [Intel Core i5-10400F](https://ark.intel.com/content/www/us/en/ark/products/199271/intel-core-i5-10400-processor-12m-cache-up-to-4-30-ghz.html)
+
+One of the best budget gaming CPUs on the market. The F version does not have iGPU, while the non-F comes with integrated graphics, other than that there are no differences between the two models.
+
+- 6 Cores / 12 Threads, up to 4.3 GHz.
+- Game clock is ~3.9-4.1 GHz.
+- Tested with MSI Z590-A Pro and 32 GB DDR4-3466 CL14.
+- Any semi-decent B560 motherboard can reach the same level of performance.
+- All power consumption limits were removed.
+- The stock Intel garbage cooler is enough to keep the CPU cool during gaming.
+
+## [Intel Xeon E5-2690 V3](https://ark.intel.com/content/www/us/en/ark/products/81713/intel-xeon-processor-e5-2690-v3-30m-cache-2-60-ghz.html)
+
+One of the most attractive AliExpress / eBay Xeon options at the moment. The CPU costs about 100 Euros, but LGA 2011-3 motherboards are hard to find. Semi-decent Chinese X99 motherboards on AliExpress cost about 80-120 Euros, which makes the two combos very similarly priced. When Turbo-Boost Unlocked the CPU maintains its maximum turbo frequency of 3.5 GHz on all cores.
+
+- 12 Cores / 24 Threads, 3.5 GHz during gaming with TU -70/50/50 MV voltage reduction.
+- Tested with JingSha X99-D8 and 32 GB DDR4-2133 CL11.
+- An LGA 2011-3 motherboard with a decent VRM is required.
+- At least a semi-decent CPU cooler is required.
+
+## Test bench configuration
+
+- GPU: AMD Radeon RX 6800XT.
+- Drivers: AMD Adrenalin 2020 Edition 21.6.1.
+- RAM: 4 x 8 GB G.Skill DDR4-3200 CL14.
+- LGA 1151: AsRock B365 Pro4.
+- LGA 1200: MSI Z590A-Pro.
+- LGA 2011-3: JingSha X99-D8.
+- AM4: MSI B450 Tomahawk Max II.
+- System SSD: Samsung 850 Evo 256 GB.
+- Games SSD: Samsung 860 Evo 2 TB.
+- PSU: EVGA SuperNova 750 P2.
+- Cooler: Noctua NH-D15.
+- OS: Windows 10 Pro x64 Build 19043.
+
+## Battlefield 5
+
+- **i5-10400**: 85 FPS 1% Low, 159 FPS Average.
+- **E5-2690 V3**: 50 FPS 1% Low, 149 FPS Average.
+- Even though the average FPS is very similar Xeon E5-2690 V3 can’t match i5-10400 in 1% lows: 50 vs 85 FPS.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide4.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide4.png)
+
+## Red Dead Redemption 2
+
+- **i5-10400**: 33 FPS Minimum, 103 FPS Average.
+- **E5-2690 V3**: 31 FPS Minimum, 116 FPS Average.
+- Red Dead is a very GPU-demanding game, in the built-in benchmark, Xeon E5 is often about 10 FPS faster than Core i5-10400.
+- Minimal FPS is slightly better with Core i5-10400.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide5.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide5.png)
+
+## GTA 5
+
+- **i5-10400**: 58 FPS Minimum, 166 FPS Average.
+- **E5-2690 V3**: 49 FPS Minimum, 147 FPS Average.
+- GTA 5 is an old unoptimized game, there is no surprise that Xeon E5-2690 V3 is not able to compete with i5-10400, it lags by ~25 FPS.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide6.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide6.png)
+
+## Far Cry New Dawn
+
+- **i5-10400**: 72 FPS Minimum, 100 FPS Average.
+- **E5-2690 V3**: 60 FPS Minimum, 83 FPS Average.
+- This is a typical single-threaded game, Xeon E5-2690 V3 is again ~25 FPS behind Core i5-10400.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide7.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide7.png)
+
+## Assassin's Creed Odyssey
+
+- **i5-10400**: 26 FPS Minimum, 72 FPS Average.
+- **E5-2690 V3**: 24 FPS Minimum, 63 FPS Average.
+- One more unoptimized game with stutters, according to the in-game benchmark, Xeon E5-2690 V3 loses about 10 FPS to Core i5-10400.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide8.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide8.png)
+
+## Assassin's Creed Valhalla
+
+- **i5-10400**: 65 FPS 1% Low, 105 FPS Average.
+- **E5-2690 V3**: 76 FPS 1% Low, 118 FPS Average.
+- ACV is a very CPU-demanding game with good multi-core optimization. Here E5-2690 V3 outpaces i5-10400 by ~10-15 FPS.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide9.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide9.png)
+
+## Watch Dogs Legion
+
+- **i5-10400**: 58 FPS 1% Low, 90 FPS Average.
+- **E5-2690 V3**: 72 FPS 1% Low, 101 FPS Average.
+- WDL is very similar to ACV in performance and optimization, thus E5-2690 V3 again comes on top of i5-10400 by ~10-15 FPS.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide10.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide10.png)
+
+## Tom Clancy's Rainbow Six Siege
+
+- **i5-10400**: 243 FPS Minimum, 351 FPS Average.
+- **E5-2690 V3**: 318 FPS Minimum, 386 FPS Average.
+- Much to my surprise, Rainbow Six Siege prefers Xeon E5 over Core i5, according to the in-game benchmark, E5-2690 V3 is about ~30 FPS faster on average, but there are a few scenes where Core i5 is better.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide11.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide11.png)
+
+## Anno 1800
+
+- **i5-10400**: 130 FPS Minimum Average, 146 FPS Average.
+- **E5-2690 V3**: 131 FPS Minimum Average, 149 FPS Average.
+- The game benchmark does not provide min values, only avg per section, thus I picked min average and total average.
+- Overall i5 and E5 provide very similar performance, in some sections, i5-10400 is better, in others E5-2690 V3 is better.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide12.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide12.png)
+
+## Immortals Fenyx Rising
+
+- **i5-10400**: 23 FPS Minimum, 75 FPS Average.
+- **E5-2690 V3**: 16 FPS Minimum, 64 FPS Average.
+- IFR is a horribly optimized game, all CPU cores are doing something, but the framerate is rather bad.
+- E5-2690 V3 loses ~10 FPS to i5-10400.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide13.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide13.png)
+
+## F1 2021
+
+- **i5-10400**: 230 FPS Minimum, 282 FPS Average.
+- **E5-2690 V3**: 209 FPS Minimum, 267 FPS Average.
+- Both CPUs render more than 200 FPS at all times, but i5-10400 is ~25 FPS faster when compared to E5-2690 V3.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide14.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide14.png)
+
+## Forza Horizon 4
+
+- **i5-10400**: 160 FPS Minimum, 178 FPS Average.
+- **E5-2690 V3**: 152 FPS Minimum, 175 FPS Average.
+- Overall i5 and E5 provide very similar performance, but Xeon is slightly slower.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide15.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide15.png)
+
+## Shadow of the Tomb Raider
+
+- **i5-10400**: 99 FPS Minimum, 141 FPS Average.
+- **E5-2690 V3**: 79 FPS Minimum, 127 FPS Average.
+- Even though Shadow of the Tomb Raider is known for its multi-core optimization, E5-2690 V3 is not able to match the i5-10400 level of performance, the gap is ~10-20 FPS.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide16.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide16.png)
+
+## Total War: Three Kingdoms
+
+- **i5-10400**: 94 FPS Minimum, 117 FPS Average.
+- **E5-2690 V3**: 93 FPS Minimum, 119 FPS Average.
+- Again we see very similar performance between the two CPUs.
+- In some scenes, Xeon is better, in others Core i5 is better.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide17.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide17.png)
+
+## Horizon Zero Dawn
+
+- **i5-10400**: 63 FPS Minimum, 127 FPS Average.
+- **E5-2690 V3**: 70 FPS Minimum, 142 FPS Average.
+- HZD is another very CPU-demanding game, E5-2690 V3 manages to beat i5-10400 by ~5-15 FPS.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide18.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide18.png)
+
+## Hitman 2
+
+- **i5-10400**: 48 FPS Minimum, 138  FPS Average.
+- **E5-2690 V3**: 41 FPS Minimum, 119 FPS Average.
+- Hitman 2 requires a stong CPU for higher FPS, but even though the performance is very similar, i5-10400 is faster by ~5-15 FPS.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide19.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide19.png)
+
+## Metro Exodus
+
+- **i5-10400**: 62 FPS Minimum, 119 FPS Average.
+- **E5-2690 V3**: 67 FPS Minimum, 117 FPS Average.
+- Another game where i5 and E5 are providing very similar performance. 
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide20.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide20.png)
+
+## Age of Empires II: Definitive Edition
+
+- **i5-10400**: 16 FPS 1% Low, 56 FPS Average.
+- **E5-2690 V3**: 18 FPS 1% Low, 45 FPS Average.
+- Age of Empires is a very old game with horrible optimization, here the lower clocked E5-2690 V3 lags by ~10-15 FPS.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide21.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide21.png)
+
+## DCS World
+
+- **i5-10400**: 78 FPS 1% Low, 145 FPS Average.
+- **E5-2690 V3**: 58 FPS 1% Low, 142 FPS Average.
+- Yet another poorly optimized game, the average performance is very similar, but 1% lows are ~20 FPS better with Core i5-10400.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide22.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide22.png)
+
+## Gears 5
+
+- **i5-10400**: 90 FPS 5% Low, 143 FPS Average.
+- **E5-2690 V3**: 62 FPS 5% Low, 124 FPS Average.
+- In Gears 5 Xeon E5-2690 V3 struggles to catch up with i5-10400, the difference of ~35 FPS is rather significant.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide23.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide23.png)
+
+## 20 Games average
+
+- **i5-10400**: 87 FPS Min / 1% Low, 141 FPS Average.
+- **E5-2690 V3**: 84 FPS Min / 1% Low, 138 FPS Average.
+- The average result across all 20 games is very similar between E5-2690 V3 and i5-10400F, which is a great result for the old Xeon. Nevertheless, the modern Core i5-10400 with faster 6 cores is a better gaming CPU.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide25.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide25.png)
+
+## Power consumption during ACV
+
+- **i5-10400**: 310 Watts.
+- **E5-2690 V3**:  360 Watts.
+- Xeon E5-2690 V3 managed to almost match the Core i5-10400 gaming performance but to achieve this result it consumed extra 50 Watts of electricity.
+
+[![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide26.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide26.png)
+
+## Conclusion
+
+Xeon E5-2690 V3 with its 12 cores running at 3.5 GHz is a strong performer. Overall the gaming performance is very similar to the modern Core i5-10400F, in some games E5 is slightly faster, in other i5 comes on top. Unfortunately, with the current E5-2690 V3 and X99 motherboard prices, this option makes little sense when compared to i5-10400F + B560 motherboard.
+
+### Xeon E5-2690 V3 setup
+- Motherboard: Huananzhi X99AD4 / BD4 ~€80.
+- CPU: Xeon E5-2690 V3 ~€100.
+- Cooler: Anything at least semi-decent ~€30.
+- RAM: 4 x 4 GB DDR4 ~€80E
+- Total without VAT: **~€290**.
+- Total with Swedish VAT (25%): ~€365E.
+
+### Core i5-10400F setup
+- Motherboard: AsRock B560M Pro4 ~€100.
+- CPU: Core i5-10400F ~€150.
+- RAM: 2 x 8 GB DDR4 ~€90.
+- Total with Swedish VAT (25%): ~€340.
+
+For gaming, Xeon E5-2690 V3 makes sense only if you can get cheap ECC REG DDR4 RAM and avoid paying VAT tax. On the other hand, Xeon E5-2690 V3 is an obvious choice if you need lots of RAM and/or PCI-E lanes.

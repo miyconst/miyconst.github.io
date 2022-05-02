@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Nvidia P106M – cooling, tuning, gaming"
+date:   2022-01-21 19:17:12 +0100
+categories: nvidia tesla gp106 p106m gtx1060 mxm gaming bios benchmark
+background: "#bbd300"
+---
+
+## Downloads
+
+- Modified [`nv_dispi.inf`](https://1drv.ms/u/s!AtZZXDjjb94kgc8qKnB5JGmfmPBkVA?e=jelbYc) file for Nvidia 497.09 drivers.
+- Password: `mi8`.
+
+## YouTube videos
+
+<iframe width="700" height="394" src="https://www.youtube.com/embed/VM-ugQH27go" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="700" height="394" src="https://www.youtube.com/embed/flXwjBK0beU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Google Slides Presentation
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR5GvEnPhH8d1IuLwgcnrhVpTNY17_ykcFPnmLGgCDrmyxQAeEtTij2iMd7ChtVzMeIagrBGjneFamg/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
