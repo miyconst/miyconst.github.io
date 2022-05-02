@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Core i7-8700B (E-2186M, QTJ2), test and comparison against Core i5-10400 & Xeon E5-2690 V3."
+date:   2022-02-21 14:41:34 +0100
+categories: i7 lga1151 mutant aliexpress i7-8700 i7-8700b qtj2 xeon e-2186M bga1440
+---
+
+## Affiliated links
+
+Please consider supporting my work by using the following AliExpress links:
+
+- [Intel Core i7-8700B](https://s.click.aliexpress.com/e/_ABdPiB).
+- [Intel Xeon E-2186M](https://s.click.aliexpress.com/e/_Aa3p0L).
+- [Intel QTJ2 Engineering Sample ES](https://s.click.aliexpress.com/e/_9RqOI7).
+
+## How to:
+
+- How to prepare BIOS: [Core i9 QTJ1 on AsRock B365 Pro4](https://www.miyconst.com/Blog/View/2095/core-i9-qtj1-on-asrock-b365-pro4), works the same for other BGA 1440 mutants.
+- Read made BIOS collection: [One Drive / Miyconst Hardware / LGA 1151](https://1drv.ms/u/s!AtZZXDjjb94kgaBNzu_leKHHQzHKdQ?e=sVNfe6).
+- Password: `mi8`.
+
+## YouTube videos
+
+<iframe width="700" height="394" src="https://www.youtube.com/embed/9lMD0CZ3iFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="700" height="394" src="https://www.youtube.com/embed/bzCXr5Gemuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Google Slides Presentation
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRkD8kpBBgC_cF0sE58ij6rvgbYBu2CBEdVRK43I6u6bmwOjpxdFGAYSF2mrk29d02ZU4iGMsyBVYLi/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
