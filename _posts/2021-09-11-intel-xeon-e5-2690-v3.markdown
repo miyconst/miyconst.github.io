@@ -53,7 +53,7 @@ One of the most attractive AliExpress / eBay Xeon options at the moment. The CPU
 
 - **i5-10400**: 85 FPS 1% Low, 159 FPS Average.
 - **E5-2690 V3**: 50 FPS 1% Low, 149 FPS Average.
-- Even though the average FPS is very similar Xeon E5-2690 V3 can’t match i5-10400 in 1% lows: 50 vs 85 FPS.
+- Even though the average FPS is very similar Xeon E5-2690 V3 can't match i5-10400 in 1% lows: 50 vs 85 FPS.
 
 [![](/downloads/2021-09-11-i5-10400-vs-e5-2690-v3/xSlide4.png)](/BlogImages/images/i5-10400-vs-e5-2690-v3/Slide4.png)
 
@@ -234,17 +234,17 @@ One of the most attractive AliExpress / eBay Xeon options at the moment. The CPU
 Xeon E5-2690 V3 with its 12 cores running at 3.5 GHz is a strong performer. Overall the gaming performance is very similar to the modern Core i5-10400F, in some games E5 is slightly faster, in other i5 comes on top. Unfortunately, with the current E5-2690 V3 and X99 motherboard prices, this option makes little sense when compared to i5-10400F + B560 motherboard.
 
 ### Xeon E5-2690 V3 setup
-- Motherboard: Huananzhi X99AD4 / BD4 ~€80.
-- CPU: Xeon E5-2690 V3 ~€100.
-- Cooler: Anything at least semi-decent ~€30.
-- RAM: 4 x 4 GB DDR4 ~€80E
-- Total without VAT: **~€290**.
-- Total with Swedish VAT (25%): ~€365E.
+- Motherboard: Huananzhi X99AD4 / BD4 ~â‚¬80.
+- CPU: Xeon E5-2690 V3 ~â‚¬100.
+- Cooler: Anything at least semi-decent ~â‚¬30.
+- RAM: 4 x 4 GB DDR4 ~â‚¬80E
+- Total without VAT: **~â‚¬290**.
+- Total with Swedish VAT (25%): ~â‚¬365E.
 
 ### Core i5-10400F setup
-- Motherboard: AsRock B560M Pro4 ~€100.
-- CPU: Core i5-10400F ~€150.
-- RAM: 2 x 8 GB DDR4 ~€90.
-- Total with Swedish VAT (25%): ~€340.
+- Motherboard: AsRock B560M Pro4 ~â‚¬100.
+- CPU: Core i5-10400F ~â‚¬150.
+- RAM: 2 x 8 GB DDR4 ~â‚¬90.
+- Total with Swedish VAT (25%): ~â‚¬340.
 
 For gaming, Xeon E5-2690 V3 makes sense only if you can get cheap ECC REG DDR4 RAM and avoid paying VAT tax. On the other hand, Xeon E5-2690 V3 is an obvious choice if you need lots of RAM and/or PCI-E lanes.

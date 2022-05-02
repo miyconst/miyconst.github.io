@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nvidia P106M – cooling, tuning, gaming"
+title:  "Nvidia P106M - cooling, tuning, gaming"
 date:   2022-01-21 19:17:12 +0100
 categories: nvidia tesla gp106 p106m gtx1060 mxm gaming bios benchmark
 background: "#bbd300"

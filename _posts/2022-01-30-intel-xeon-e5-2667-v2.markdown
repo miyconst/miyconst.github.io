@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Xeon E5-2667 V2 – what is it capable of in 2022? Comparing with E5-2690 V3 and i5-10400"
+title:  "Xeon E5-2667 V2 - what is it capable of in 2022? Comparing with E5-2690 V3 and i5-10400"
 date:   2022-01-30 03:51:48 +0100
 categories: intel xeon e5-2667v2 lga2011 x79 aliexpress cpu benchmark
 background: "#139aff"
