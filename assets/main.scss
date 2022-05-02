@@ -6,6 +6,7 @@
 
 body {
     background-color: #cccccc;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 }
 
 header.site-header {
@@ -22,13 +23,41 @@ header.site-header .page-link:visited {
 
 main.page-content {
     padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .wrapper { 
     max-width: calc(1030px - (30px * 2));
 }
 
-main .wrapper { 
+main .wrapper {
     background-color: white;
     padding-top: 30px;
+    min-height: calc(100vh - 250px);
+}
+
+footer.site-footer {
+    border-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #333333;
+    color: white;
+}
+
+footer.site-footer h2 {
+    display: none;
+    padding: 30px;
+}
+
+footer.site-footer a,
+footer.site-footer .footer-col-wrapper {
+    color: #F0F0F0;
+}
+
+h1.post-title {
+    font-family: Cambria;
+    font-style: italic;
+    padding: 0px;
+    color: #993333;
+    font-weight: normal;
 }
