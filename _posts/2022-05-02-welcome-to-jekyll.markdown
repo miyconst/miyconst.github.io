@@ -3,6 +3,8 @@ layout: post
 title:  "My blog has moved to GitHub pages."
 date:   2022-05-02 09:27:40 +0100
 categories: jekyll update blog move
+background: "#6e5494"
+color: white
 ---
 My previous blog's engine was developed by me about ten years ago, and I should have moved to GitHub pages long time ago, but as it always happen, I had more important things to do.
 

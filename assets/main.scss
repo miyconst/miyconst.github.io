@@ -33,7 +33,7 @@ main.page-content {
 main .wrapper {
     background-color: white;
     padding-top: 30px;
-    min-height: calc(100vh - 250px);
+    min-height: calc(100vh - 195px);
 }
 
 footer.site-footer {
@@ -42,6 +42,39 @@ footer.site-footer {
     padding-bottom: 0px;
     background-color: #333333;
     color: white;
+}
+
+footer .wrapper {
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+footer .wrapper .footer-col {
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+footer .wrapper .footer-col-1 {
+    display: none;
+}
+
+footer .wrapper .footer-col-2 {
+    width: 50%;
+}
+
+footer .wrapper .footer-col-2 ul.social-media-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer .wrapper .footer-col-2 ul.social-media-list li {
+    width: 50%;
+    padding-top: 0px;
+}
+
+footer .wrapper .footer-col-3 {
+    width: 50%;
 }
 
 footer.site-footer h2 {
@@ -54,6 +87,10 @@ footer.site-footer .footer-col-wrapper {
     color: #F0F0F0;
 }
 
+footer.site-footer a * {
+    vertical-align: middle;
+}
+
 h1.post-title {
     font-family: Cambria;
     font-style: italic;
@@ -61,3 +98,55 @@ h1.post-title {
     color: #993333;
     font-weight: normal;
 }
+
+ul.post-list {
+    margin-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul.post-list > li {
+    margin-bottom: 20px;
+    display: block;
+    width: 32%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 30px;
+    background-color: #444;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 310px;
+}
+
+ul.post-list > li:hover {
+    background-color: #cccccc !important;
+    color: #333333 !important;
+    transition: all 150ms;
+}
+
+ul.post-list > li:hover * {
+    color: #333333 !important;
+    transition: all 150ms;
+}
+
+ul.post-list > li * {
+    color: inherit;
+}
+
+ul.post-list > li h3 {
+    margin-bottom: 0px;
+}
+
+ul.post-list > li .post-meta {
+    line-height: 30px;
+ }
+
+ ul.post-list > li .post-link {
+     font-size: 25px;
+     font-weight: normal;
+ }

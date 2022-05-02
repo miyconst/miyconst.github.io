@@ -24,8 +24,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Here you will find materials for my YouTube videos and random bits about computer hardware, software, politics, and life in general.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://miyconst.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-github_username:  miyconst
+# twitter_username: MiyconstSe
+youtube_username: Miyconst
+github_username:  Miyconst
+instagram_username: "mi8.se"
+linkedin_username: Miyconst
 
 # Build settings
 theme: minima
