@@ -21,7 +21,7 @@
 title: Miyconst Personal Blog
 email: miyconst [at] gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Here you will find additional materials for my YouTube videos and other random bits about computer hardware, software, politics, and life in general.
+  Here you will find materials for my YouTube videos and random bits about computer hardware, software, politics, and life in general.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://miyconst.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
