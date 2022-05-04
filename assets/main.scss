@@ -121,6 +121,7 @@ ul.post-list > li {
     flex-direction: column;
     justify-content: center;
     height: 310px;
+    transition: all 200ms;
 }
 
 ul.post-list > li:hover {
@@ -144,9 +145,40 @@ ul.post-list > li h3 {
 
 ul.post-list > li .post-meta {
     line-height: 30px;
+}
+
+ul.post-list > li .post-link {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.post-content iframe {
+    max-width: 100% !important;
+}
+
+@media screen and (max-width: 850px) {
+    ul.post-list > li {
+        width: calc(50% - 7px);
+        margin-bottom: 15px;
+        transition: all 200ms;
+    }
+
+    ul.post-list > li .post-link {
+        font-size: 24px;
+    }
+
+    footer .wrapper .footer-col-2 {
+        width: 100%;
+    }
+
+    footer .wrapper .footer-col-3 {
+        width: 100%;
+    }
  }
 
- ul.post-list > li .post-link {
-     font-size: 25px;
-     font-weight: normal;
+ @media screen and (max-width: 550px) {
+    ul.post-list > li {
+        width: 100%;
+        transition: all 200ms;
+    }
  }
