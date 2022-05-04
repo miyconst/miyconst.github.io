@@ -2,7 +2,8 @@
 layout: post
 title:  "Xeon E5-2690 V3 vs Core i5-10400F | 20 Games | 1080p | AMD RX 6800XT"
 date:   2021-09-11 13:28:23 +0100
-categories: x99 xeon e5-2690v3 i5 gaming i5-10400 lga1200 qqls lga1151 b365 b560 z590
+categories: hardware cpu intel
+tags: x99 xeon e5-2690v3 i5 gaming i5-10400 lga1200 qqls lga1151 b365 b560 z590
 background: "#139aff"
 ---
 

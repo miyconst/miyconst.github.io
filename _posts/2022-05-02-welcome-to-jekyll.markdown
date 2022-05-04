@@ -2,7 +2,8 @@
 layout: post
 title:  "My blog has moved to GitHub pages"
 date:   2022-05-02 09:27:40 +0100
-categories: jekyll update blog move
+categories: general
+tags: jekyll update blog move
 background: "#6e5494"
 color: white
 ---

@@ -2,7 +2,8 @@
 layout: post
 title:  "Maxsun (Soyo) B560M Challenger - LGA 1200 motherboard from AliExpress"
 date:   2022-01-03 17:08:35 +0100
-categories: lga1200 b560 maxsun soyo aliexpress i3-10100 i5-11400 i5-10400 intel
+categories: hardware motherboard lga1200
+tags: lga1200 b560 maxsun soyo aliexpress i3-10100 i5-11400 i5-10400 intel
 background: "#5b606a"
 color: white
 ---

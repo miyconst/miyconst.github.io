@@ -2,7 +2,8 @@
 layout: post
 title:  "AMD Radeon FirePro S9300 X2 (Radeon Pro Duo)"
 date:   2022-02-25 02:09:40 +0100
-categories: amd gpu r9 nano fury fiji gcn review radeon instinct mi8 wstore s9300 firepro ati
+categories: hardware gpu amd
+tags: amd gpu r9 nano fury fiji gcn review radeon instinct mi8 wstore s9300 firepro ati
 background: "#ef077b"
 ---
 
