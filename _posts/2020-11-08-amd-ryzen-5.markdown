@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Ryzen 5 5600X takes on i9-10900 QTB1, i5-10500 QSRK, E5-2678 V3, and E5-1660 V3"
+date: 2020-11-08 15:30:54 +0100
+categories: hardware cpu amd
+tags: ryzen am4 xeon lga2011v3 x99 amd intel r55600x i910900 i510500 qtb1 qsrk e52678v3 e51660v3 x99tf huananzhi b460 z490
+background: "#bd0000"
+color: white
+---
+
+In this rather long and exhausting video I am comparing performance of a few interesting CPUs for working tasks and gaming.
+
+1. Ryzen 5 5600X.
+2. Core i9-10900 QTB1.
+3. Core i5-10500 QSRK.
+4. Xeon E5-2678 V3.
+5. Xeon E5-1660 V3
+
+## Extra content to check
+
+- [Hardware Unboxed: 6-core Gaming Beast, AMD Ryzen 5 5600X Review vs. 3700X/10600K](https://www.youtube.com/watch?v=y7ukz8WUdW4).
+
+## YouTube video
+
+<iframe width="700" height="394" src="https://www.youtube.com/embed/iBOGSuy329k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Google Slides presentation
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTvu0sv4z-QXS6OTdC3MFa5q7ljTyw1lxX7zmPg1fHyzjh5KhTU7H6nuc0JiHl9eUarBNoWXwKf3xEJ/embed?start=false&loop=true&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
