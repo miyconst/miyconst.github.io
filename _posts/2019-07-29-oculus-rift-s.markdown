@@ -63,7 +63,7 @@ The missing over ear headphones is a pro for me, not a con. I am not very demand
 
 The Oculus Touch controllers are a bit too small for me, but for shooting and boxing they are way better than HTC Vive's variant. Originally, I thought that using [AA batteries](https://en.wikipedia.org/wiki/AA_battery) for controllers is a bad idea, but after a while I became to be a fan of the idea.
 
-![Oculus Rift S Controllers](/BlogImages/images/oculus-rift-s/oculus-rift-s-controllers.jpg)
+![Oculus Rift S Controllers](/assets/2019-07-29-oculus-rift-s/oculus-rift-s-controllers.jpg)
 
 When HTC Vive's controllers are going out of charge, I am forced to stop gaming and put them on charge, with Oculus Touch I replace the batteries and throw myself back into VR. Just have to maintain a stash of AA batteries.
 
@@ -71,7 +71,7 @@ When HTC Vive's controllers are going out of charge, I am forced to stop gaming 
 
 ### 1. [The Thrill of the Fight](https://store.steampowered.com/app/494150/The_Thrill_of_the_Fight__VR_Boxing/)
 
-![The Thrill Of The Fight](/BlogImages/images/oculus-rift-s/the-thrill-of-the-fight.jpg)
+![The Thrill Of The Fight](/assets/2019-07-29-oculus-rift-s/the-thrill-of-the-fight.jpg)
 
 It's simply the best VR game I have ever experienced. The Thrill of the Fight does not have astonishing graphics, does not have an entertaining story, and does not provide heart touching musing, it's just a realistic boxing simulator. And that's exactly what I love!
 
@@ -93,7 +93,7 @@ Boxing is not only nice, but also physically demanding and make you sweat, thus,
 
 The stupid game story of "fighting the Odin" feels unnecessary and boring, but it's still fun to shoot, grab, and throw those robots.
 
-![Robo Recall](/BlogImages/images/oculus-rift-s/robo-recall.jpg)
+![Robo Recall](/assets/2019-07-29-oculus-rift-s/robo-recall.jpg)
 
 There are plenty of [YouTube videos](https://www.youtube.com/results?search_query=robo+recall) of the game, but if you want to see me playing - just let me know in the comment below.
 
@@ -101,7 +101,7 @@ There are plenty of [YouTube videos](https://www.youtube.com/results?search_quer
 
 Sometimes you want to listen to a book or just have a long call and want to do something, in this case Box VR is the best companion.
 
-![BOX VR](/BlogImages/images/oculus-rift-s/box-vr.jpg)
+![BOX VR](/assets/2019-07-29-oculus-rift-s/box-vr.jpg)
 
 In the beginning it's hard to figure out the angles to hit the incoming balls, and you get frustrated, thinking that tracking is not working, but after a while you figure it out, and the hands are just collecting all the targets themselves.
 
@@ -111,13 +111,13 @@ It's a great game for some physical activity while your brain is occupied with s
 
 Long Echo is the only story driven VR game I keep playing.
 
-![Long Echo](/BlogImages/images/oculus-rift-s/long-echo.jpg)
+![Long Echo](/assets/2019-07-29-oculus-rift-s/long-echo.jpg)
 
 So far the story does not seem to be very engaging and I am not sure whether I will complete the game at all. Still, it's nice to dive into the Space every once in a while.
 
 ## Oculus Rift S - ★★★★☆
 
-![Oculus Rift S](/BlogImages/images/oculus-rift-s/oculus-rift-s.png)
+![Oculus Rift S](/assets/2019-07-29-oculus-rift-s/oculus-rift-s.png)
 
 **My score for Oculus Rift S is 4 out of 5.**
 
