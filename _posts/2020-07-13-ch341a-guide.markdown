@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "CH341a - minimal usage guide, how to read and write a motherboard BIOS"
+date:   2020-07-13 16:15:01 +0100
+categories: hardware
+tags: bios flash programmer usb ch341a manual guide
+background: "#666666"
+color: white
+---
+
+This is a minimal usage guide where I tell how to use the CH341a USB flash programmer to read or write a motherboard BIOS. It can be used to restore a bricked motherboard or write a modified BIOS on a motherboard with a write-protected BIOS chip.
+
+## YouTube video
+
+<iframe width="700" height="394" src="https://www.youtube.com/embed/4qX2zihB6UE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Google Slides presentation
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQLq_LA_GVcEubt6gr64qrhb74U9QPns7cIkr-4UTyiyfpYTm38HnAOBhyB_D_pwv_83mjs6qo32lFq/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

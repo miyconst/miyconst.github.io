@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "Ryzen 5 3600 vs Xeon E5-2640 V3 @ 1080p"
+date:   2020-05-10 21:18:18 +0100
+categories: hardware cpu intel
+tags: x99 lga2011 lga2011-3 xeon turbo boost ryzen r53600 e52640v3 bf4 bf5 pubg gta5 gtav astroneer ostriv rdr2 sort aco f1
+background: "#139aff"
+---
+
+## Ryzen 5 3600 vs Xeon E5-2640 V3 in 13 Games with RTX 2080 Ti at 1080p
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xaL5u3AYgRE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Astroneer - Ryzen 5 3600 vs Xeon E5-2640 V3 | Side by side FPS comparison
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uKXmEIcnuyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### [Ostriv](https://ostrivgame.com/home/), a city-building game - Ryzen 5 3600 vs Xeon E5-2640 V3 | Side by side FPS comparison
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9Qtx0ho9n98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Grand Theft Auto V - Ryzen 5 3600 vs Xeon E5-2640 V3 | Side by side FPS comparison
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zcIr8bCD4dg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### F1 2019 - Ryzen 5 3600 vs Xeon E5-2640 V3 | Side by side FPS comparison
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RDixMS2eQqI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Shadow of the Tomb Raider - Ryzen 5 3600 vs Xeon E5-2640 V3 | Side by side FPS comparison
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WxjxNcDEp4M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### PlayerUnknown's Battlegrounds (PUBG) - Ryzen 5 3600 vs Xeon E5-2640 V3 | Side by side FPS comparison
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HnrwgKyXGNI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Assassin's Creed Odyssey - Ryzen 5 3600 vs Xeon E5-2640 V3 | Side by side FPS comparison
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/glsUksBH6iw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Battlefield 5 - Ryzen 5 3600 vs Xeon E5-2640 V3 | Side by side FPS comparison
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wuYs4B699FQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Counter-Strike: Global Offensive - Ryzen 5 3600 vs Xeon E5-2640 V3 | Side by side FPS comparison
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/awBjvJ7SB7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Red Dead Redemption 2 - Ryzen 5 3600 vs Xeon E5-2640 V3 | Side by side FPS comparison
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5aSpbNPx-nk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
