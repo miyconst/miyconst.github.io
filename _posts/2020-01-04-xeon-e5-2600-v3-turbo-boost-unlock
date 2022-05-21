@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "Xeon E5-2600 V3 Turbo Boost Unlock"
 date:   2020-01-04 18:43:45 +0100
@@ -52,8 +52,8 @@ certutil -hashfile x99-tu-ffs.zip SHA256
 
 This is a step by step guide of how to unlock Xeon E5-2600 V3 Turbo Boost frequency on all CPU cores using Chinese X99 motherboards and manual EFI driver installation. This method was written for and tested with Windows 10 Pro x64.
 
-- **❗ IMPORTANT**: The step “6. Windows driver installation” does not seem to be required any more. First validate if Turbo Boost Unlock works without it. Install Windows drivers only if unlock does not work without them.
-- **❗ IMPORTANT**: Use the `V3DUAL.EFI` driver for dual socket motherboards. Google Slides presentation has been updated, but the video guide is not possible to update.
+- **! IMPORTANT**: The step "6. Windows driver installation" does not seem to be required any more. First validate if Turbo Boost Unlock works without it. Install Windows drivers only if unlock does not work without them.
+- **! IMPORTANT**: Use the `V3DUAL.EFI` driver for dual socket motherboards. Google Slides presentation has been updated, but the video guide is not possible to update.
 
 <iframe width="700" height="394" src="https://www.youtube.com/embed/VkwEvATIgW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
