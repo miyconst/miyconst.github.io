@@ -10,6 +10,12 @@ color: black
 
 [![](/assets/2022-07-25-motorcycle-trip/map.png)](https://www.google.com/maps/dir/Saltsj%C3%B6baden/Malingarna,+770+14+Nyhammar/Lelles+Dalah%C3%A4star+Ab,+Sandav%C3%A4gen+5,+792+50+Mora/H%C3%A4rjebrygg,+Bygatan+37,+840+94+T%C3%A4nn%C3%A4s/N%C3%A4ssom+Kustens+G%C3%A5rdsbryggeri+124,+872+96+Bj%C3%A4rtr%C3%A5/Saltsj%C3%B6baden/@61.2675399,14.6669911,7.52z/data=!4m38!4m37!1m5!1m1!1s0x465f7f7ab23b6eef:0xa00fef5b28ca090!2m2!1d18.3110523!2d59.278744!1m5!1m1!1s0x465d652bb8273fd5:0xf4acea4a6fab612e!2m2!1d14.8602288!2d60.3527257!1m5!1m1!1s0x4667dd06656ea465:0x89fd81af6d368dc5!2m2!1d14.5767717!2d61.0053969!1m5!1m1!1s0x466ea57f08467e25:0xb9a8cacacffbfc71!2m2!1d12.6851049!2d62.4412103!1m5!1m1!1s0x4664b952ccbed599:0x55596c821d312ced!2m2!1d17.8615634!2d62.9919666!1m5!1m1!1s0x465f7f7ab23b6eef:0xa00fef5b28ca090!2m2!1d18.3110523!2d59.278744!3e0)
 
+**Remember**! Only because Ukraine is holding off ruzzians, we can peacefully live in Europe and enjoy our hobbies.
+- Support the Ukrainian army.
+- Ban all ruzzians from Europe.
+
+Follow [Serhii Sternenko](https://twitter.com/sternenko) for more updates on Ukraine.
+
 It's been four years since I had a motorcycle trip that spans for more than a day. Hopefully, the weather will be nice and I will be able to follow my plan of a four day trip, this time I plan to go north of Stockholm.
 
 The ultimate goal would be to end up in Kiruna and Abisko, but this is a mission impossible for now, maybe next year...
