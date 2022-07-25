@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Checking out north of Sweden on a motorcycle 2022.07.26 - 2022.08.29"
+title:  "To the north of Sweden on a motorcycle 2022.07.26 - 2022.08.29"
 date:   2022-07-25 20:48:00 +0100
 categories: motorcycles trip
 tags: riding motorcycle sweden mv agusta stradale 800
