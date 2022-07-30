@@ -41,7 +41,6 @@ The ultimate goal would be to end up in Kiruna and Abisko, but this is a mission
 - Helgum
 - Bjärtrå: [Kustens Gårdsbryggeri](https://www.facebook.com/Kustens-G%C3%A5rdsbryggeri-1851248128508516/)
 - Sundsvall: [Selanger pilgrimscenter](https://selangerpilgrimscenter.se/)
-- Mölndal
 - Gnarp: [en liten sjökrog](https://enlitenkrog.se/)
         
 ## 2022.07.29: [Gnarp - Saltsjöbaden](https://www.google.com/maps/dir/en+liten+sj%C3%B6krog,+Klasviksv%C3%A4gen+24,+820+77+Gnarp/S%C3%B6derhamn+%2F+F15+Flight+Museum,+826+70+S%C3%B6derhamn/Mackmyra+Whisky,+Kolonnv%C3%A4gen+2,+802+67+G%C3%A4vle/S%C3%B6derby+Modellj%C3%A4rnv%C3%A4gens+Hus+132,+747+32+Alunda/Saltsj%C3%B6baden/@60.64288,15.3936205,7z/data=!3m1!4b1!4m32!4m31!1m5!1m1!1s0x46640deb4b008035:0x2d3995369c68da0!2m2!1d17.4360766!2d62.0279736!1m5!1m1!1s0x4666cc86428dade7:0xcea3d0b5abae6c14!2m2!1d17.0870469!2d61.269976!1m5!1m1!1s0x4660c630b104a7bb:0x8aafaa537f74200!2m2!1d17.1002198!2d60.6646541!1m5!1m1!1s0x465fd9ad342034b7:0x329d0e11918ce35b!2m2!1d18.0356528!2d60.0470298!1m5!1m1!1s0x465f7f7ab23b6eef:0xa00fef5b28ca090!2m2!1d18.3110523!2d59.278744!3e0)
