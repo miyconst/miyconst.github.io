@@ -12,6 +12,7 @@ background: "#139aff"
 - [S3TurboTool guide in russian](https://xeon-e5450.ru/socket-2011-3/e5-2600-v3/dobavlyaem-anlok-v-bios-raz-i-navsegda-cherez-s3turbotool/).
 - [Ultimate Patcher Tool v2.2 for C612/X99 Firmware](https://nalex.me/ultimate-patcher-tool/).
 - [Download ready-made FFS drivers and related software](https://1drv.ms/u/s!AtZZXDjjb94k61HFsD8WMI5vGh1l?e=wMMElc).
+- [Mi899 - X99 Tool Set | read, write BIOS & unlock turbo-boost with a few mouse clicks.](https://github.com/miyconst/Mi899).
 
 ### LGA 2011-3 (X99) platform overview and status update in 2022 Q3
 
