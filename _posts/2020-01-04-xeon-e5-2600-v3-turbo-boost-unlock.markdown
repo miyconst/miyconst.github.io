@@ -7,12 +7,21 @@ tags: x99 lga2011 lga2011-3 xeon turbo boost bios unlock
 background: "#139aff"
 ---
 
-## 2022 methods not covered in this post
+## 2022 Q3 update
 
 - [S3TurboTool guide in russian](https://xeon-e5450.ru/socket-2011-3/e5-2600-v3/dobavlyaem-anlok-v-bios-raz-i-navsegda-cherez-s3turbotool/).
 - [Ultimate Patcher Tool v2.2 for C612/X99 Firmware](https://nalex.me/ultimate-patcher-tool/).
+- [Download ready-made FFS drivers and related software](https://1drv.ms/u/s!AtZZXDjjb94k61HFsD8WMI5vGh1l?e=wMMElc).
+
+### LGA 2011-3 (X99) platform overview and status update in 2022 Q3
+
+<iframe width="700" height="394" src="https://www.youtube.com/embed/AW0QgQNbBwA?start=553" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRiOjd2ZBfs-NMrp0iYZAXAoOKsBnNavKQNQz9ECcL3Bf8U0gwo5ot6jil54O636397tgEMJIsw1fAn/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Method 1: Inject FFS driver straight into the BIOS.
+
+*This is an outdated method, use S3TurboTool instead.*
 
 This is a step by step guide of how to unlock Xeon E5-2600 V3 Turbo Boost frequency on all CPU cores using Chinese X99 motherboards and modified BIOS with a build in FFS driver. This method is OS independent and does not require EFI driver installation / re-installation.
 
