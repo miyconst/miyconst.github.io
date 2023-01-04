@@ -18,8 +18,8 @@ Please consider supporting my work by using the following AliExpress links:
 
 ## How to:
 
-- How to prepare BIOS: [Core i9 QTJ1 on AsRock B365 Pro4](https://www.miyconst.com/Blog/View/2095/core-i9-qtj1-on-asrock-b365-pro4), works the same for other BGA 1440 mutants.
-- Read made BIOS collection: [One Drive / Miyconst Hardware / LGA 1151](https://1drv.ms/u/s!AtZZXDjjb94kgaBNzu_leKHHQzHKdQ?e=sVNfe6).
+- How to prepare BIOS: [Core i9 QTJ1 on AsRock B365 Pro4](https://miyconst.github.io/hardware/cpu/intel/2021/06/06/qtj1-on-asrock-b365-pro4.html), works the same for other BGA 1440 mutants.
+- Ready made BIOS collection: [One Drive / Miyconst Hardware / LGA 1151](https://1drv.ms/u/s!AtZZXDjjb94kgaBNzu_leKHHQzHKdQ?e=sVNfe6).
 - Password: `mi8`.
 
 ## YouTube videos
