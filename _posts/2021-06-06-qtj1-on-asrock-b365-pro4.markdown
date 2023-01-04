@@ -25,7 +25,7 @@ color: white
 
 - [AsRock B365 Pro4 official page](https://www.asrock.com/mb/intel/b365%20pro4/index.asp).
 - [Download ready made BIOS for QTJ1, QJT2, QQLS, QQLT](https://1drv.ms/u/s!AtZZXDjjb94kgZwb5fMlbzMOdvc0GA?e=UTOYhR).
-- [CH341a - minimal usage guide, how to read and write a motherboard BIOS](https://www.miyconst.com/Admin/Blogs/Details/2086).
+- [CH341a - minimal usage guide, how to read and write a motherboard BIOS](https://miyconst.github.io/hardware/2020/07/13/ch341a-guide.html).
 
 ### 1. Replace Intel Management Engine (IME)
 
