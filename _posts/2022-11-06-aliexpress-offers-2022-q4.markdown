@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AliExpress offers and deals in 2023 Q4"
-date:   2022-11-06 15:51:05 +0100
+date:   2023-10-17 20:15:05 +0100
 categories: aliexpress offer
 tags: aliexpress x99 xeon huananzhi maxsun jginyue lga1200 lga1700 am4 ryzen intel core b560 b550 b660 h510 h610
 background: "#c5000f"
