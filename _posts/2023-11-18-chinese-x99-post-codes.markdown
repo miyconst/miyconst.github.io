@@ -39,3 +39,8 @@ The standard American Megatrends Post Code tables can be downloaded from my Micr
 | `01`, `0A`, `0B`, `0D`, `24`, `25`, `26`, `2A`, `2B`, `31`, `AE`, `A6`, `0D`, `D6`, `64`, `62`, `B2` | Graphics card (check) failed |
 | `C1`, `C6`, `C3`, `01`, `02`, `19` | Repeat jump I/O BIOS failed |
 | `AA`, `40`, `4E`, `55` | Meaningless, normal operation |
+
+## Extra links
+
+- [Mr. BIOS: POST Diagnostic](https://www.mrbios.com/techsupport/award/postcodes.htm).
+- [BIOS-Central: BIOS PostCodes](https://www.bioscentral.com/postcodes/amibios.htm).
