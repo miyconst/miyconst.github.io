@@ -129,8 +129,8 @@ This is a known UEFI bug of the LGA 2011-3 X99 platform. The fix is simple:
 ## Extra links
 
 - [Xeon E5-2600 V3 Turbo Boost Unlock](https://miyconst.github.io/hardware/cpu/intel/2020/01/04/xeon-e5-2600-v3-turbo-boost-unlock.html).
-- [🇬🇧 CH341a – minimal usage guide | how to read & write a motherboard BIOS](https://youtu.be/4qX2zihB6UE?si=vXVf4Fo430RfLJ05).
-- [🇬🇧 Mi899 – X99 Tool Set | read, write BIOS & unlock turbo-boost with a few mouse clicks](https://youtu.be/bO2t790vhg8?si=K6n61THJs5AWSsQW).
+- [🇬🇧 CH341a – minimal usage guide, how to read & write a motherboard BIOS](https://youtu.be/4qX2zihB6UE?si=vXVf4Fo430RfLJ05).
+- [🇬🇧 Mi899 – X99 Tool Set, read, write BIOS & unlock turbo-boost with a few mouse clicks](https://youtu.be/bO2t790vhg8?si=K6n61THJs5AWSsQW).
 - [🇬🇧 Resizable BAR on LGA 2011-3 X99 – how to enable and get extra performance](https://youtu.be/vcJDWMpxpjE?si=QOibXP_UBVaNrdZx).
 - [GitHub: Mi899](https://github.com/miyconst/Mi899).
 - [GitHub: ReBarUEFI](https://github.com/xCuri0/ReBarUEFI/releases).
