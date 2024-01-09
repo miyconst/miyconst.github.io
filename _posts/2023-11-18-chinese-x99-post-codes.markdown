@@ -28,6 +28,7 @@ The standard American Megatrends Post Code tables can be downloaded from my Micr
 | `B1` | Incompatible RAM |
 | `67` | RAM Error |
 | `53` | RAM not installed |
+| `91` | Something related to the CPU |
 | `96` | X99 motherboard with E5-16XX V3 overclocking |
 
 ## Kllisre motherboards
