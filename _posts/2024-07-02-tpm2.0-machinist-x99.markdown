@@ -1,0 +1,95 @@
+---
+layout: post
+title:  "TPM 2.0 modules for Machinist X99 motherboards - Q/A"
+date:   2024-07-02 10:00:00 +0100
+categories: hardware
+tags: tpm x99 lga2011v3 machinist xeon aliexpress
+background: "#003200"
+color: "#f6fff6"
+---
+
+This page aims to answer the most common questions about TPM 2.0 modules designed and developed by [BIOS-iEngineer](https://www.youtube.com/@BIOS-Engineer) for Machinist X99 motherboards.
+
+## Where to buy TPM 2.0 modules for Machinist X99 motherboards?
+
+- Global store: [onegigahertz.company.site](https://onegigahertz.company.site/).
+- Tradera Sweden: [www.tradera.com/en/profile/items/5327307/onegigahertz](https://www.tradera.com/en/profile/items/5327307/onegigahertz).
+- Contact me directly: [onegigahertz.se](https://onegigahertz.se/).
+- BIOS-iEngineer: [www.patreon.com/BIOSiEngineer](https://www.patreon.com/BIOSiEngineer).
+
+## What motherboards were tested with this TPM 2.0 module?
+
+- [Machinist X99-MR9A](https://s.click.aliexpress.com/e/_DFNxLSn).
+- [Machinist X99-MR9A Pro](https://s.click.aliexpress.com/e/_DCkvAPN).
+- [Machinist X99-RS9](https://s.click.aliexpress.com/e/_DCrXB1N).
+- [Machinist X99-K9](https://s.click.aliexpress.com/e/_DCym64R).
+- [Qiyida E5-A99](https://s.click.aliexpress.com/e/_DDFQByF).
+
+**IMPORTANT**: Chinese manufacturers produce multiple different motherboard revisions under the same name. One tested motherboard does not guarantee that all motherboards with the same name are fully compatible with this TPM 2.0 module.
+
+## How to check if your motherboard is compatible with this TPM 2.0 module
+
+Please watch [the following video](https://youtu.be/ocO5xrRM30o) for a step-by-step verification tutorial:
+
+<iframe width="700" height="394" src="https://www.youtube.com/embed/ocO5xrRM30o?si=paMj0gXW02yCXbfh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### In short:
+
+- This module is designed and developed primarily for Machinist X99 motherboards but may work with other boards as well.
+- Not every Machinist X99 motherboard is compatible with this module.
+- Not every BIOS has support for TPM 2.0.
+- Compatible JLPC1 header and BIOS support are required for this TPM 2.0 module.
+
+## How to install TPM 2.0 module
+
+Please watch [the following video](https://youtu.be/ETE9esrKDXM) for a step-by-step installation tutorial:
+
+<iframe width="700" height="394" src="https://www.youtube.com/embed/ETE9esrKDXM?si=Ak8BW3jca1xg9LZB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### In short:
+
+- Power off your PC.
+- Locate JLPC1 header on your motherboard.
+- Align the missing pin on the header with the plugged/disabled pin on the module.
+- Gently install the module, you may wiggle it from side to side for easier installation.
+- Power on your PC and go into the BIOS by pressing the `Delete` key during startup.
+- Go to the second tab called `Advanced` then open the `Trusted Computing` menu.
+- Ensure that it says `Security Device Found`.
+
+## Do I need to solder the two additional TPM 2.0 wires?
+
+Please watch [this video](https://youtube.com/shorts/jSRYLZCL6TQ?si=Wg8KdzanIu4TrLlG) for detailed explanation:
+
+<iframe width="394" height="700" src="https://www.youtube.com/embed/jSRYLZCL6TQ?si=Wg8KdzanIu4TrLlG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### In short:
+
+- No, you don't have to solder the two additional wires for the TPM 2.0 module to function.
+- The wires are required to reset the TPM 2.0 module.
+- Without the wires connected the module won't be detected after PC reboot.
+- Power Off/On is required to get the TPM 2.0 module detected.
+
+## Are the Huananzhi motherboards compatible with this TPM 2.0 module?
+
+Please watch [this video](https://youtu.be/h-LwQNdrI1c) for detailed explanation:
+
+<iframe width="700" height="394" src="https://www.youtube.com/embed/h-LwQNdrI1c?si=damrZy0DwN24uXBu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### In short:
+
+- No, the Machinist 2.0 modules are not compatible with Huananzhi motherboards.
+- Huananzhi motherboards have a similar header called DEBUG1 but it's not the same.
+- The DEBUG1 header could be used for TPM 2.0 but extra development is needed.
+- Such a TPM 2.0 module would cost ~30-35 Euros.
+
+## Are the Qiyida, Kllisre, Atermiter, Veineda, and other brand motherboards compatible with this TPM 2.0 module?
+
+Please watch [this video](https://youtu.be/sEV3lYfTFyg) for detailed explanation:
+
+<iframe width="700" height="394" src="https://www.youtube.com/embed/sEV3lYfTFyg?si=hLdEmtHw2MGyw_nk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### In short:
+
+- This module is designed specifically for Machinist motherboards but it may still work with other boards.
+- If your motherboard has a compatible JLPC1 header and BIOS supports TPM 2.0 it is likely to be compatible with this TPM 2.0 module.
+- Still, there are no guarantees and every motherboard must be checked individually.
