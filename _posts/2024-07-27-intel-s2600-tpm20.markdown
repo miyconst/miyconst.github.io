@@ -14,7 +14,7 @@ The LGA 3647 motherboards go down in price and I managed to buy an [Intel S2066S
 
 ## Intel LGA 3647 S2600ST TPM 2.0
 
-According to the [Intel's manual](/2024-07-27-intel-s2600-tpm20/Intel_S2600ST_TPS.pdf), the motherboardd should be compatible with 12-pin TPM 2.0 modules.
+According to the [Intel's manual](/assets/2024-07-27-intel-s2600-tpm20/Intel_S2600ST_TPS.pdf), the motherboardd should be compatible with 12-pin TPM 2.0 modules.
 
 >A TPM device is optionally installed onto a high density 12-pin connector labeled "TPM" on the server board, and is secured from external software attacks and physical theft.
 
