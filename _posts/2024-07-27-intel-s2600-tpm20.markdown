@@ -10,7 +10,7 @@ color: white
 
 The LGA 3647 motherboards go down in price and I managed to buy an [Intel S2066ST dual socket motherboard from eBay for ~€250](https://ebay.us/2SZIaW). The motherboard works great and I don't have any complaints but the "fun" thing is the TPM 2.0 connector.
 
-![Intel S2600STBR dual socket LGA 3647 motherboard](/2024-07-27-intel-s2600-tpm20/Intel S2600STBR.webp)
+![Intel S2600STBR dual socket LGA 3647 motherboard](/assets/2024-07-27-intel-s2600-tpm20/Intel S2600STBR.webp)
 
 ## Intel LGA 3647 S2600ST TPM 2.0
 
@@ -18,28 +18,28 @@ According to the [Intel's manual](/2024-07-27-intel-s2600-tpm20/Intel_S2600ST_TP
 
 >A TPM device is optionally installed onto a high density 12-pin connector labeled "TPM" on the server board, and is secured from external software attacks and physical theft.
 
-![Intel S2600ST TPM 2.0 installation](/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-00.png)
+![Intel S2600ST TPM 2.0 installation](/assets/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-00.png)
 
 The supported parts are supposed to be:
 
 - [Trusted platform module 2.0 (Rest of World) - iPC - **AXXTPMENC8**](https://ebay.us/yepVgf).
 - Trusted platform module 2.0 (China Version) - iPC - **AXXTPME8**.
 
-![Intel S2600ST TPM 2.0 specs](/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-02.png)
+![Intel S2600ST TPM 2.0 specs](/assets/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-02.png)
 
 The only problem is that the **AXXTPMENC8** is a 14-pin part and that is also confirmed by another Intel's manual: [Intel Server S2600ST Product Family](https://www.intel.com/content/dam/support/us/en/documents/server-products/server-boards/S2600ST_P4000ConfigGuide.pdf).
 
-![Intel AXXTPMENC8 TPM 2.0 module](/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-01.jpg)
-![Intel AXXTPMENC8 TPM 2.0 module](/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-03.png)
+![Intel AXXTPMENC8 TPM 2.0 module](/assets/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-01.jpg)
+![Intel AXXTPMENC8 TPM 2.0 module](/assets/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-03.png)
 
 While the motherboard connector is indeed a 12-pin one.
 
-![Intel S2600ST TPM 2.0 connector](/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-04.png)
+![Intel S2600ST TPM 2.0 connector](/assets/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-04.png)
 
 I went through dozens of Google search pages and could not find a single picture of a 12-pin Intel TPM module. The documentation has this cryptic history entry:
 
 >Corrected # of pins on TPM
 
-![Intel S2600ST TPM 2.0 revision history](/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-05.png)
+![Intel S2600ST TPM 2.0 revision history](/assets/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-05.png)
 
 Please let me know if you have any documentation or info about this misterious 12-pin TPM 2.0 module.
