@@ -16,7 +16,7 @@ The LGA 3647 motherboards go down in price and I managed to buy an [Intel S2066S
 
 According to the [Intel's manual](/assets/2024-07-27-intel-s2600-tpm20/Intel_S2600ST_TPS.pdf), the motherboardd should be compatible with 12-pin TPM 2.0 modules.
 
->A TPM device is optionally installed onto a high density 12-pin connector labeled "TPM" on the server board, and is secured from external software attacks and physical theft.
+>A TPM device is optionally installed onto a high density **12-pin connector** labeled "TPM" on the server board, and is secured from external software attacks and physical theft.
 
 ![Intel S2600ST TPM 2.0 installation](/assets/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-00.png)
 
@@ -27,7 +27,7 @@ The supported parts are supposed to be:
 
 ![Intel S2600ST TPM 2.0 specs](/assets/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-02.png)
 
-The only problem is that the **AXXTPMENC8** is a 14-pin part and that is also confirmed by another Intel's manual: [Intel Server S2600ST Product Family](https://www.intel.com/content/dam/support/us/en/documents/server-products/server-boards/S2600ST_P4000ConfigGuide.pdf).
+The only problem is that the **AXXTPMENC8** is a 14-pin part and that is also confirmed by another manual: [Intel Server S2600ST Product Family](https://www.intel.com/content/dam/support/us/en/documents/server-products/server-boards/S2600ST_P4000ConfigGuide.pdf).
 
 ![Intel AXXTPMENC8 TPM 2.0 module](/assets/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-01.jpg)
 ![Intel AXXTPMENC8 TPM 2.0 module](/assets/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-03.png)
@@ -42,4 +42,4 @@ I went through dozens of Google search pages and could not find a single picture
 
 ![Intel S2600ST TPM 2.0 revision history](/assets/2024-07-27-intel-s2600-tpm20/intel-s2600-tpm2.0-05.png)
 
-Please let me know if you have any documentation or info about this misterious 12-pin TPM 2.0 module.
+Please let me know if you have any documentation or info about this mysterious 12-pin TPM 2.0 module.
