@@ -8,7 +8,7 @@ background: "#0071c5"
 color: white
 ---
 
-The LGA 3647 motherboards go down in price and I managed to buy an [Intel S2066ST dual socket motherboard from eBay for ~€250](https://ebay.us/2SZIaW). The motherboard works great and I don't have any complaints but the "fun" thing is the TPM 2.0 connector.
+The LGA 3647 motherboards go down in price and I managed to buy an [Intel S2066ST dual socket motherboard from eBay for ~â‚¬250](https://ebay.us/2SZIaW). The motherboard works great and I don't have any complaints but the "fun" thing is the TPM 2.0 connector.
 
 ![Intel S2600STBR dual socket LGA 3647 motherboard](/2024-07-27-intel-s2600-tpm20/Intel S2600STBR.webp)
 
