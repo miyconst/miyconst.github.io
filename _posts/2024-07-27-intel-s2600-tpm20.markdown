@@ -65,3 +65,7 @@ I asked about this 12-pin TPM module at the official Intel support forum:
 [12-pin AXXTPMENC8 TPM for S2600ST LGA 3647 motherboard](https://community.intel.com/t5/Server-Products/12-pin-AXXTPMENC8-TPM-for-S2600ST-LGA-3647-motherboard/m-p/1618978#M24887).
 
 Unfortunately, Intel's customer support is utterly incompetent, so far I have not gotten a single relevant answer and it feels like the support agents do not even read the original post.
+
+Another picture of the 12-pin AXXTPMENC8 TPM, this time from Intel themselves.
+
+![12-pin Intel S2600ST TPM 2.0 module](https://community.intel.com/t5/image/serverpage/image-id/57677i7E91FE91E83D465E/image-size/large)
