@@ -10,6 +10,16 @@ color: "#f6fff6"
 
 This page aims to answer the most common questions about TPM 2.0 modules designed and developed by [BIOS-iEngineer](https://www.youtube.com/@BIOS-Engineer) for Machinist X99 motherboards.
 
+## 2025.01.01 update:
+
+**IMPORTANT**: I no longer sell any products related to the TPM 2.0 modules for the Chinese X99 motherboards, please watch this live stream for more details: [Hidden gem hunt, no more X99 TPMs, random Q/A – Miyconst Live](https://youtube.com/live/tKGUWnEUShE).
+
+### In short:
+
+- Buyers do not read the description and do not follow the guide when using the TPM modules.
+- Chinese motherboards come with way too random quality, random JLPC1 headers, and often supply wrong voltage to the JLPC1 header.
+- This leads to frequent death of the TPM 2.0 modules and I lose way too much money on warranty claims.
+
 ## 2024.08.22 update:
 
 It turns out that `Gigabyte 12-pin MRS121A TPM 2.0 LPC` module is compatible with the Chinese X99 motherboard, you only need an adapter.
