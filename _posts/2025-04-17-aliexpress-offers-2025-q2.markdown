@@ -21,6 +21,8 @@ color: white
 
 AliExpress April 2025: [Download PDF presentation here](/assets/2025-04-17-aliexpress-offers-2025-q2/aliexpress-april-2025.pdf).
 
+<hr/>
+
 ## AMD AM5
 
 ### CPU
@@ -42,6 +44,8 @@ AliExpress April 2025: [Download PDF presentation here](/assets/2025-04-17-aliex
 - DDR5-6000 CL36 is the lowest I would go with AM5.
 - I have not yet tested a single Chinese AM5 motherboard, thus I can guarantee absolutely nothing.
 
+<hr/>
+
 ## Intel LGA 1700
 
 ### CPU
@@ -62,6 +66,8 @@ AliExpress April 2025: [Download PDF presentation here](/assets/2025-04-17-aliex
 
 - DDR4-3200 / DDR5-5600 is the lowest I would go with LGA 1700.
 - Do not buy 12th gen ES CPUs, the CPU PCI-E lanes do not work.
+
+<hr/>
 
 ## AMD AM4
 
@@ -86,19 +92,23 @@ AliExpress April 2025: [Download PDF presentation here](/assets/2025-04-17-aliex
 - DDR4-3200 is the lowest I would go with AM4, DDR4-3600 is desired.
 - Always ask the seller to flash BIOS compatible with your CPU.
 
+<hr/>
+
 ## Graphics Cards (GPU)
 
-SOYO RX 580: ~€82, 8 GB vRAM.
-SOYO RX 5700XT: ~€175, 8 GB vRAM.
-SOYO RX 6600M: ~€185, 8 GB vRAM.
-MLLSE GTX 1070: ~€160, 8 GB vRAM.
-MLLSE RTX 2060 Super: ~€220, 8 GB vRAM.
+- [SOYO RX 580](https://s.click.aliexpress.com/e/_Dk088aP): ~€82, 8 GB vRAM.
+- [SOYO RX 5700XT](https://www.aliexpress.com/item/1005005761968744.html): ~€175, 8 GB vRAM.
+- [SOYO RX 6600M](https://s.click.aliexpress.com/e/_DBbBoz9): ~€185, 8 GB vRAM.
+- [MLLSE GTX 1070](https://s.click.aliexpress.com/e/_omuLiLl): ~€160, 8 GB vRAM.
+- [MLLSE RTX 2060 Super](https://s.click.aliexpress.com/e/_omuLiLl): ~€220, 8 GB vRAM.
 
 ### Notes
 
 - `Europe-Warehouse.Europe Store` / **gpustar.com is a scam**.
 - AliExpress GPU prices are just really bad, better look on eBay:
 - [RTX 2060](https://www.ebay.com/sch/i.html?_nkw=rtx+2060&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338941691&customid=&toolid=10001&mkevt=1), [RTX 3060](https://www.ebay.com/sch/i.html?_nkw=rtx+3060&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338941691&customid=&toolid=10001&mkevt=1), [RTX 4060](https://www.ebay.com/sch/i.html?_nkw=rtx+4060&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338941691&customid=&toolid=10001&mkevt=1), [RX 5700](https://www.ebay.com/sch/i.html?_nkw=rx+5700&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338941691&customid=&toolid=10001&mkevt=1), [RX 6600](https://www.ebay.com/sch/i.html?_nkw=rx+6600&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338941691&customid=&toolid=10001&mkevt=1), [RX 6700](https://www.ebay.com/sch/i.html?_nkw=rx+6700&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338941691&customid=&toolid=10001&mkevt=1).
+
+<hr/>
 
 ## Intel LGA 2011-3
 
@@ -121,6 +131,8 @@ MLLSE RTX 2060 Super: ~€220, 8 GB vRAM.
 - Please stop buying dual socket boards unless you really need it!
 - H610 + i3-12100F or B450 + R5 3500X/3600 is better for most users.
 - [Dell T5810](https://ebay.us/NypUOq) and [HP Z440](https://www.ebay.com/sch/i.html?_nkw=hp+z440&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338941691&customid=&toolid=10001&mkevt=1) workstations can often be found for very cheap.
+
+<hr/>
 
 ## RAM
 
@@ -146,6 +158,8 @@ MLLSE RTX 2060 Super: ~€220, 8 GB vRAM.
 - 4/8-bank DDR4 UDIMM is not compatible with X99.
 - Do not buy high speed ECC REG RAM, it's overclocked and relabeled DDR4-2133.
 - OEM workstations require native, not XMP, speed.
+
+<hr/>
 
 ## AMD EPYC & Intel LGA 3647
 
