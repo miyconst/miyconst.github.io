@@ -99,7 +99,7 @@ AliExpress April 2025: [Download PDF presentation here](/assets/2025-04-17-aliex
 - [SOYO RX 580](https://s.click.aliexpress.com/e/_Dk088aP): ~€82, 8 GB vRAM.
 - [SOYO RX 5700XT](https://www.aliexpress.com/item/1005005761968744.html): ~€175, 8 GB vRAM.
 - [SOYO RX 6600M](https://s.click.aliexpress.com/e/_DBbBoz9): ~€185, 8 GB vRAM.
-- [MLLSE GTX 1070](https://s.click.aliexpress.com/e/_omuLiLl): ~€160, 8 GB vRAM.
+- [MLLSE GTX 1070](https://s.click.aliexpress.com/e/_olaPJw9): ~€160, 8 GB vRAM.
 - [MLLSE RTX 2060 Super](https://s.click.aliexpress.com/e/_omuLiLl): ~€220, 8 GB vRAM.
 
 ### Notes
@@ -170,7 +170,7 @@ AliExpress April 2025: [Download PDF presentation here](/assets/2025-04-17-aliex
 - [Supermicro X11SPI-TF](https://ebay.us/IXbSB3): ~€300, ATX, BIOS from iEngineer.
 - [Xeon Gold 6138](https://ebay.us/P77cR1): ~€20, 20 Cores, <= 3.7 GHz, 27.5 L3 Cache, DDR4-2666, 125 W.
 - [Xeon Gold 6150](https://ebay.us/DZSngT): ~€110, 18 Cores, <= 3.7 GHz, 24.75 L3 Cache, DDR4-2666, 165 W.
-- [Xeon Gold 8275CL](https://ebay.us/12rBl5): ~€325, 24 Cores, <= 3.9 GHz, 35.75 L3 Cache, DDR4-2933, 240 W.
+- [Xeon Platinum 8275CL](https://ebay.us/12rBl5): ~€325, 24 Cores, <= 3.9 GHz, 35.75 L3 Cache, DDR4-2933, 240 W.
 
 ### AMD EPYC SP3
 
