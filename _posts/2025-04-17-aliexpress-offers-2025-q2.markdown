@@ -182,3 +182,11 @@ AliExpress April 2025: [Download PDF presentation here](/assets/2025-04-17-aliex
 
 - You just don't need it. Buy only if you really know what it's for.
 - My [Huananzhi X11D-16D](https://s.click.aliexpress.com/e/_oFoE1Cj) was defective and their support is atrocious.
+
+## Mini-ITX NAS
+
+- [Unique mITX C236 motherboard supports all LGA 1151 CPUs and has everything for a NAS/pfSense](https://s.click.aliexpress.com/e/_ok6sr61) for ~€110.
+- [M.2 NVMe to 6 x SATA 3.0](https://s.click.aliexpress.com/e/_oBALzet) for ~€22.
+- [WiFi M.2 to 2.5 GbE](https://s.click.aliexpress.com/e/_oEUdFEv) for ~€15.
+- [PCI-E X1/X4 to M.2 NVMe](https://s.click.aliexpress.com/e/_onGTLzn) for ~€2.
+- [SA3112J PCI-E X1 to 6 x SATA 3.0](https://s.click.aliexpress.com/e/_oDuZBVR) for ~€10.
