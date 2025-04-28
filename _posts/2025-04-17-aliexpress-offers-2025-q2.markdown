@@ -190,3 +190,4 @@ AliExpress April 2025: [Download PDF presentation here](/assets/2025-04-17-aliex
 - [WiFi M.2 to 2.5 GbE](https://s.click.aliexpress.com/e/_oEUdFEv) for ~€15.
 - [PCI-E X1/X4 to M.2 NVMe](https://s.click.aliexpress.com/e/_onGTLzn) for ~€2.
 - [SA3112J PCI-E X1 to 6 x SATA 3.0](https://s.click.aliexpress.com/e/_oDuZBVR) for ~€10.
+- [Supermicro AOC-S3008L-L8E LSI 9300-8i 12Gbps SAS HBA](https://s.click.aliexpress.com/e/_omwD5Wh) for ~€42.
