@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TPM 2.0 modules for Machinist X99 motherboards - Q/A"
-date:   2024-07-02 10:00:00 +0100
+date:   2025-09-22 10:00:00 +0100
 categories: hardware
 tags: tpm x99 lga2011v3 machinist xeon aliexpress
 background: "#003200"
@@ -9,6 +9,25 @@ color: "#f6fff6"
 ---
 
 This page aims to answer the most common questions about TPM 2.0 modules designed and developed by [BIOS-iEngineer](https://www.youtube.com/@BIOS-Engineer) for Machinist X99 motherboards.
+
+## 2025.09.22 update:
+
+A subscriber reported that it's possible to use Gigabyte 12-pin LPC TPM 2.0 modules through a USB 2.0 extension cable with the Chinese X99 motherboards that are equipped with a 10-pin JLPC port.
+
+- [Gigabyte 12-pin LPC TPM 2.0 on AliExpress](https://s.click.aliexpress.com/e/_c35OKTlV), make sure to purchase the correct version.
+- [USB 2.0 extension cable on AliExpress](https://s.click.aliexpress.com/e/_c3dDzviR), the shorter the better.
+
+The tested TPM module looks like this:
+
+![Gigabyte 12-pin LPC TPM 2.0](/assets/2024-07-02-tpm2.0-machinist-x99/gigabyte-tpm20.jpg)
+
+The tested USB 2.0 extension cable looks like this:
+
+![USB 2.0 extension cable](/assets/2024-07-02-tpm2.0-machinist-x99/usb2-cable.jpg)
+
+And here is the schema of how to connect the pins:
+
+![Chinese JLPC header to Gigabyte 12-pin LPC TPM 2.0 schema](/assets/2024-07-02-tpm2.0-machinist-x99/jlpc-schematics.jpg)
 
 ## 2025.01.01 update:
 
