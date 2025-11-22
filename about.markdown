@@ -21,11 +21,11 @@ I am a software engineer and a computer hardware enthusiast. At the moment I wor
 
 ## Some facts:
 
-- I ride [just sold my Honda CBR600F](https://www.instagram.com/p/DOB9HhFDOWP/).
+- I just sold my [Honda CBR600F](https://www.instagram.com/p/DOB9HhFDOWP/).
 - I have a cat called [Zion](https://www.instagram.com/p/CYiuPNUIYCp/).
 - I like playing chess.
 - I like martial arts and working out.
-- I speak Ukrainian and English but also know some Swedish and Chinese.
+- I speak Ukrainian, English, Swedish and also know some Chinese, Italian.
 
 ## Meta info:
 
