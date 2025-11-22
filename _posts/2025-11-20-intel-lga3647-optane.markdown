@@ -8,10 +8,9 @@ background: "#0071c5"
 color: white
 ---
 
-**The article was written by [Ford Morris](https://www.linkedin.com/in/ford-morris-82ba3b228/) for my Discord server**.
-**With his permission I publish the article on my blog with some edits**.
-
-The original document is available here: [PMEM Budget Build Info Doc](https://docs.google.com/document/d/1DgcsK-FA8_SGgbfSotEQkfK_DrepOUvCZ5IQ7avjMwI/edit?tab=t.0).
+- **The article was written by [Ford Morris](https://www.linkedin.com/in/ford-morris-82ba3b228/) for my Discord server**.
+- **With his permission I publish the article on my blog with some edits**.
+- The original document is available here: [PMEM Budget Build Info Doc](https://docs.google.com/document/d/1DgcsK-FA8_SGgbfSotEQkfK_DrepOUvCZ5IQ7avjMwI/edit?tab=t.0).
 
 ----------
 
@@ -41,12 +40,12 @@ Here is a list of the top candidates I found, in no particular order
 - [Xeon Platinum 8259CL, ~$40, 24c, 2.5-3.5 GHz](https://ebay.us/YKYN0Z).
 - [Xeon Platinum 8269CY, ~$100, 26c, 2.5-3.8 GHz](https://ebay.us/bvNb75).
 
-**important**:
+**Important**:
 - Most motherboards require BIOS mod to work with CL CPUs.
 - Most motherboards require VRM mod to work with >205 W TDP CPUs.
 - Many motherboards require VRM mod to work with >165 W TDP CPUs.
 
-## motherboard
+## Motherboard
 
 Next is the motherboard platform, where we are looking for LGA 3647 motherboards that support it.
 Most of these were built for First Gen Xeon Scalable (Skylake) and need a bios update to support Second Gen Xeon Scalable (Cascade Lake).
@@ -149,11 +148,12 @@ I know it supports Optane PMEM because it says so here,
 [Dell Precision 7820 Tower Owner's Manual](https://www.dell.com/support/manuals/en-us/precision-7820-workstation/precision_7820_om_pub/memory-specifications?guid=guid-644d2756-8b52-4142-a7dc-dc898ae38dcc&lang=en-us).
 No specific guide on memory, try referencing either the HP Z6 G4 or Supermicro 6 slot guides.
 
-### Supermicro X11SPM-F Motherboard mATX
+### Supermicro X11SPM-F
 
 - Price: ~$200.
 - CPU: 1 socket.
 - RAM: 6 slots per socket.
+- Size: mATX.
 - Link: [eBay](https://ebay.us/o0RA41).
 
 I know the board supports Optane PMEM because it says so here: [X11SPM-F](https://www.supermicro.com/en/products/motherboard/x11spm-f).
@@ -161,11 +161,12 @@ I know the board supports Optane PMEM because it says so here: [X11SPM-F](https:
 Supported PMEM configuration (2 PMEM 4 DRAM per CPU) at page 15 here:
 [MEMORY CONFIGURATION FOR X11 UP/DP/MP MOTHERBOARDS](https://www.supermicro.com/support/resources/memory/X11_memory_config_guide.pdf).
 
-### Supermicro X11DPH-T Motherboard E-ATX
+### Supermicro X11DPH-T
 
 - Price: ~$279.
 - CPU: 2 sockets.
 - RAM: 8 slots per socket.
+- Size: E-ATX.
 - Link: [eBay](). (https://ebay.us/m/wVEkrR)
 
 I know the board supports Optane PMEM because it says so here: [X11DPH-T](https://www.supermicro.com/en/products/motherboard/x11dph-t).
