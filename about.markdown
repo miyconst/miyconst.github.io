@@ -16,13 +16,12 @@ I am a software engineer and a computer hardware enthusiast. At the moment I wor
 - [Facebook: Kostiantyn Cherniavskyi](https://www.facebook.com/profile.php?id=100009827558860).
 - [LinkedIn: Kostiantyn Cherniavskyi](https://www.linkedin.com/in/kostiantyn-cherniavskyi-1337a1184/).
 - [GitHub: miyconst](https://github.com/miyconst).
-- [Skype: miyconst](skype:miyconst).
 - [Discord: Miyconst Hardware](https://discord.gg/E3By2JFTYC).
 - [Business: One Gigahertz AB](https://onegigahertz.se/).
 
 ## Some facts:
 
-- I ride [MV Agusta Stradale 800](https://www.instagram.com/p/CS18z05DWfV/).
+- I ride [just sold my Honda CBR600F](https://www.instagram.com/p/DOB9HhFDOWP/).
 - I have a cat called [Zion](https://www.instagram.com/p/CYiuPNUIYCp/).
 - I like playing chess.
 - I like martial arts and working out.
@@ -30,4 +29,4 @@ I am a software engineer and a computer hardware enthusiast. At the moment I wor
 
 ## Meta info:
 
-This page was last updated on 2022.05.02.
+This page was last updated on 2025.11.23.
