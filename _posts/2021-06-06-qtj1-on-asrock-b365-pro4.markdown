@@ -61,6 +61,8 @@ Use `9.0.1107` version from the provided options.
 - `906EA`: Coffee Lake QNCT.
 - `906EC`: Coffee Lake QQLT, QQLS.
 - `506EB`: Kaby Lake QL3X, QL2X.
+- `506E3`: Kaby Lake Xeon E3 V5.
+- `906E9`: Kaby Lake Xeon E3 V6.
 
 
 ![](/assets/2021-06-06-asrock-b365-pro4/step-05-microcodes.png)
