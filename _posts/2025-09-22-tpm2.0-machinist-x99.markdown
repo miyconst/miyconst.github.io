@@ -15,9 +15,9 @@ This page aims to answer the most common questions about TPM 2.0 modules designe
 Here is a nice writeup on schematics and usage of the DEBUG/JLPC1 header on the Chinese X99 motherboards:
 [TPM 2.0 on Chinese X99 Motherboards](https://oldrigrevive.com/lga-2011-3/tpm-2-0-on-chinese-x99-boards/).
 
-![DEBUG/JLPC1 pinout without pin 9](https://oldrigrevive.com/wp-content/uploads/2025/10/JLPC_DEBUG-pinout-pin9-nopin.jpg)
-
-![DEBUG/JLPC1 pinout without pin 10](https://oldrigrevive.com/wp-content/uploads/2025/10/JLPC_DEBUG-pinout-pin10-nopin.jpg)
+| Without pin 9 | Without pin 10 |
+|---------------|----------------|
+| ![DEBUG/JLPC1 pinout without pin 9](https://oldrigrevive.com/wp-content/uploads/2025/10/JLPC_DEBUG-pinout-pin9-nopin.jpg) | ![DEBUG/JLPC1 pinout without pin 10](https://oldrigrevive.com/wp-content/uploads/2025/10/JLPC_DEBUG-pinout-pin10-nopin.jpg) |
 
 ## 2025.09.22 update:
 
