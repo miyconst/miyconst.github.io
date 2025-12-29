@@ -10,6 +10,11 @@ color: "#f6fff6"
 
 This page aims to answer the most common questions about TPM 2.0 modules designed and developed by [BIOS-iEngineer](https://www.youtube.com/@BIOS-Engineer) for Machinist X99 motherboards.
 
+## 2025.12.29 update:
+
+Here is a nice writeup on schematics and usage of the DEBUG/JLPC1 header on the Chinese X99 motherboards:
+[TPM 2.0 on Chinese X99 Motherboards](https://oldrigrevive.com/lga-2011-3/tpm-2-0-on-chinese-x99-boards/).
+
 ## 2025.09.22 update:
 
 A subscriber reported that it's possible to use Gigabyte 12-pin LPC TPM 2.0 modules through a USB 2.0 extension cable with the Chinese X99 motherboards that are equipped with a 10-pin JLPC port.
