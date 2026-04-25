@@ -1,0 +1,159 @@
+---
+layout: post
+title:  "Lenovo M1210 12G PCI-E X4 SAS Controller"
+date:   2026-04-24 22:00:00 +0100
+categories: hardware
+tags: lenovo sas sata lsi hba homelab
+background: "#E42022"
+color: white
+---
+
+I have managed to source a couple of [Dell SAS SSDs](https://ebay.us/gVx6tq) but as a regular consumer I could not get it connected to my [ASRock Z890 Pro-A](https://www.asrock.com/mb/Intel/Z890%20Pro-A/index.asp).
+For SAS drives (SSD or HDD) you need a compatible Host Bus Adapter (HBA) and most of these adapters are PCI-E X8 while my motherboard has only one PCI-E X16 slot occupied by my GPU and a couple PCI-E X4 slots, one of which is occupied with a video capture card.
+
+The only PCI-E X4 12G SAS HBA I was able to find is [Lenovo ServeRAID M1210](https://ebay.us/Ycf6N6).
+It comes with a single `SFF-8643` connector unlike the PCI-E X8 cards that come with two `SFF-8643` connectors. Still, each connector can host up to four drives, which is enough for me.
+
+![](/assets/2026-04-24-lenovo-m1210/lenovo-m1210.jpg)
+
+This is the cable I use with my M1210: [Mini SAS HD SFF-8643 to 4 x SFF-8482](https://s.click.aliexpress.com/e/_c39AjmiR).
+
+![](/assets/2026-04-24-lenovo-m1210/sff-8643-to-sff-8482.jpg)
+
+## Lenovo ServeRAID M1210
+
+This is an OEM card equipped with LSI SAS3008 9300-4I controller and compatible with the official Broadcom firmware.
+Most of these cards are sold with proprietary Lenovo hardware RAID firmware that is of no use for regular consumers like me.
+
+So, in this little guide I will show how to flash Lenovo M1210 to IT mode for usage in regular computers.
+
+ℹ *An HBA (Host Bus Adapter) in IT (Initiator Target) mode is a SAS/SATA controller flashed with firmware that allows it to act as a "dumb" pass-through device.*
+
+### UEFI Shell
+
+Even though Lenovo M1210 can theoretically be flashed from Windows/DOS/Linux, using UEFI shell is the easiest way. Some motherboards have built-in EFI shell to boot from others require a bootable USB flash drive with UEFI shell.
+
+If you motherboard does not have built-in UEFI shell then you can follow this guide to create a bootable USB drive: [Building a Bootable USB drive with UEFI Shell (x64)](https://chipsec.github.io/installation/USBwithUEFIShell.html).
+
+### Firmware and tools
+
+Regardless of UEFI shell, you would need a FAT32 formatted USB drive to host tools and firmware to flash the card.
+The files needed are:
+
+- `9300_P1616_OOB_20210529.bin`: the firmware itself.
+- `sas3flash.efi`: the flashing tool.
+- `mptsas3.rom`: optional BIOS file for legacy (CSM) boot.
+- `mpt3x64.rom`: optional BIOS file for UEFI boot.
+- `HBA-LSI-9300-8i_Firmware_16.00.16.00 Release Notes.pdf`: official manual.
+
+ℹ *Most of the HBA cards have firmware and BIOS. Firmware is required for card's operation. BIOS provides UI for configuration. In IT mode it's recommended to skip the BIOS as no extra configuration is needed and the boot time is slightly faster without it.*
+
+All the files can be found online but also available to download from my blog: [`lenovo-m1210-p16-efi.zip`](/assets/2026-04-24-lenovo-m1210/).
+
+### Boot into UEFI shell
+
+Place all the required files onto your FAT32 formatted USB flash drive, disconnect all other storage devices, and boot into UEFI shell.
+
+Disconnecting other storage devices is not strictly necessarily but makes things easier as the USB flash drive will always get `fs0` path.
+I left my storage connected so the USB flash drive got path `fs1`; I also placed all the files into `9300` folder, that's what you will see on the screenshots.
+
+All the following EFI shell commands must be executed from the folder where you placed the files, in my case it's `fs1:\9300` in your case it can be `fs0:\` or something else.
+
+### Ensure that M1210 is detected
+
+Execute the following command to ensure that the Lenovo M1210 is properly detected.
+
+```
+sas3flash.efi -list
+```
+
+If the card is detected, you should see something like this:
+
+![](/assets/2026-04-24-lenovo-m1210/step-00.png)
+
+From here you should save the `SAS Address`, `Board Assembly`, and `Board Tracer Number` values.
+I recommend writing all these values on a piece of paper and taking a photo of the screen.
+
+### Erase the M1210
+
+Before Lenovo M1210 can be flashed to IT mode it must be fully erased first. For that execute the following:
+
+```
+sas3flash.efi -o -e 7
+```
+
+The flashing procedure takes a while and does not show any progress, just wait patiently until it finishes.
+
+![](/assets/2026-04-24-lenovo-m1210/step-01.png)
+
+### Flash the new firmware
+
+Execute the following command to flash the new firmware, make sure to use the correct file name.
+
+```
+sas3flash.efi -o -f <file-name.bin>
+```
+
+In my case the full command looked like this:
+
+```
+sas3flash.efi -o -f 9300_P1616_OOB_20210529.bin
+```
+
+![](/assets/2026-04-24-lenovo-m1210/step-02.png)
+
+It may take a while to finish the process but once ready you should see something like this:
+
+![](/assets/2026-04-24-lenovo-m1210/step-03.png)
+
+### Optionally flash the new BIOS
+
+If you want to have the card's UI then you have to also flash the new BIOS, it is done with the following command:
+
+```
+sas3flash.efi -o -b mptsas3.rom
+```
+
+I skipped this step as I do not want the UI, instead I want slightly faster booting time.
+
+### Restore SAS Address
+
+Once flashing is completed you have to restore the original SAS Address of the card. It's done with the following command:
+
+```
+sas3flash.efi -o -sasadd <original-sas-address>
+```
+
+In my case the command was:
+
+```
+sas3flash.efi -o -sasadd 50010C6000C7E220
+```
+
+Make sure to specify SAS Address without the dashes otherwise it will be rejected.
+
+![](/assets/2026-04-24-lenovo-m1210/step-04.png)
+
+Do the same for the other two properties with:
+
+```
+sas3flash.efi -o -assem <original-assembly-number>
+```
+
+![](/assets/2026-04-24-lenovo-m1210/step-05.png)
+
+```
+sas3flash.efi -o -tracer <original-tracer-number>
+```
+
+![](/assets/2026-04-24-lenovo-m1210/step-06.png)
+
+### Done
+
+Now your Lenovo M1210 runs in IT mode and can be used as a simple SAS controller to connect SAS SSD/HDD drives.
+Execute the `list` command for one last time to see that firmware version is updated, SAS Address and other properties have correct values.
+
+If you used my files, then the firmware version should be set to `16.00.16.00`.
+
+
+![](/assets/2026-04-24-lenovo-m1210/step-07.png)
