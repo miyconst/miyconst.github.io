@@ -156,3 +156,10 @@ Execute the `list` command for one last time to see that firmware version is upd
 If you used my files, then the firmware version should be set to `16.00.16.00`.
 
 ![](/assets/2026-04-24-lenovo-m1210/step-07.png)
+
+### Useful links
+
+- [Flash 9300-8i RAID Controller to IT Mode (HBA)](https://github.com/EverLand1/9300-8i_IT-Mode).
+- [LSI® SAS 9300-4i PCI Express® to 12Gb/s Serial Attached SCSI (SAS) Host Bus Adapter](https://docs.broadcom.com/doc/12353310).
+- [Avago® SAS 9300 12Gb/s SAS](https://docs.broadcom.com/doc/12352000).
+- [9300_8i_Package_P16_IR_IT_FW_BIOS_for_MSDOS_Windows](https://www.broadcom.com/support/download-search?dk=9300_8i).
