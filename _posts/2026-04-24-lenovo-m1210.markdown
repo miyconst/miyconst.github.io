@@ -111,7 +111,7 @@ It may take a while to finish the process but once ready you should see somethin
 If you want to have the card's UI then you have to also flash the new BIOS, it is done with the following command:
 
 ```
-sas3flash.efi -o -b mptsas3.rom
+sas3flash.efi -o -b mptsas3.rom -b mpt3x64.rom
 ```
 
 I skipped this step as I do not want the UI, instead I want slightly faster booting time.
