@@ -48,7 +48,7 @@ The files needed are:
 
 ℹ *Most of the HBA cards have firmware and BIOS. Firmware is required for card's operation. BIOS provides UI for configuration. In IT mode it's recommended to skip the BIOS as no extra configuration is needed and the boot time is slightly faster without it.*
 
-All the files can be found online but also available to download from my blog: [`lenovo-m1210-p16-efi.zip`](/assets/2026-04-24-lenovo-m1210/).
+All the files can be found online but also available to download from my blog: [`lenovo-m1210-p16-efi.zip`](/assets/2026-04-24-lenovo-m1210/lenovo-m1210-p16-efi.zip).
 
 ### Boot into UEFI shell
 
@@ -154,6 +154,5 @@ Now your Lenovo M1210 runs in IT mode and can be used as a simple SAS controller
 Execute the `list` command for one last time to see that firmware version is updated, SAS Address and other properties have correct values.
 
 If you used my files, then the firmware version should be set to `16.00.16.00`.
-
 
 ![](/assets/2026-04-24-lenovo-m1210/step-07.png)
