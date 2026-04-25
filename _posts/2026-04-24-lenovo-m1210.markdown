@@ -8,6 +8,10 @@ background: "#E42022"
 color: white
 ---
 
+⚠️ It seems like there are two versions of Lenovo M1210:
+- Device ID `SAS3008(C0)` (like mine) usese 9300-8i firmware.
+- Device ID `SAS3004(C0)` (like [this eBay listing](https://ebay.us/sF5EFH)) uses 9300-4i firmware.
+
 I have managed to source a couple of [Dell SAS SSDs](https://ebay.us/gVx6tq) but as a regular consumer I could not get it connected to my [ASRock Z890 Pro-A](https://www.asrock.com/mb/Intel/Z890%20Pro-A/index.asp).
 For SAS drives (SSD or HDD) you need a compatible Host Bus Adapter (HBA) and most of these adapters are PCI-E X8 while my motherboard has only one PCI-E X16 slot occupied by my GPU and a couple PCI-E X4 slots, one of which is occupied with a video capture card.
 
