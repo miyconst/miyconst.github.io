@@ -106,7 +106,7 @@ The flashing procedure takes a while and does not show any progress, just wait p
 
 ![](/assets/2026-04-24-lenovo-m1210/step-01.png)
 
-### Erasing SBR, optional
+### Erase the M1210 for changing Device ID
 
 ❗ Do this step only if you are cross-flashing between different firmware versions, for example from 8i to 4i.
 
@@ -184,7 +184,7 @@ Make sure to specify SAS Address without the dashes otherwise it will be rejecte
 
 ![](/assets/2026-04-24-lenovo-m1210/step-04.png)
 
-Do the same for the other two properties with:
+Do the same for the other two properties with (not required):
 
 ```
 sas3flash.efi -o -assem <original-assembly-number>
