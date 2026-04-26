@@ -8,12 +8,6 @@ background: "#E42022"
 color: white
 ---
 
-⚠️ It seems like there are two versions of Lenovo M1210:
-- Device ID `SAS3008(C0)` (like mine) uses 9300-8i firmware.
-- Device ID `SAS3004(C0)` (like [this eBay listing](https://ebay.us/sF5EFH)) uses 9300-4i firmware.
-
------------------------------------
-
 I have managed to source a couple of [Dell SAS SSDs](https://ebay.us/gVx6tq) but as a regular consumer I could not get it connected to my [ASRock Z890 Pro-A](https://www.asrock.com/mb/Intel/Z890%20Pro-A/index.asp).
 For SAS drives (SSD or HDD) you need a compatible Host Bus Adapter (HBA) and most of these adapters are PCI-E X8 while my motherboard has only one PCI-E X16 slot occupied by my GPU and a couple PCI-E X4 slots, one of which is occupied with a video capture card.
 
@@ -32,8 +26,19 @@ This is an OEM card equipped with LSI SAS3008 9300-4I controller and compatible 
 Most of these cards are sold with proprietary Lenovo hardware RAID firmware that is of no use for regular consumers like me.
 
 So, in this little guide I will show how to flash Lenovo M1210 to IT mode for usage in regular computers.
+Lenovo M1210 works with 9300-8i and 9300-4i firmware, I treid both but could not find any difference.
 
 ℹ *An HBA (Host Bus Adapter) in IT (Initiator Target) mode is a SAS/SATA controller flashed with firmware that allows it to act as a "dumb" pass-through device.*
+
+If you want to cross-flash from the original Lenovo firmware or between the 8i/4i versions, you have to erase Serial Boot Record (SBR) with `MegaRec.exe` first.
+Otherwise flashing will fail with error like:
+
+```
+ERROR: NVDATA Image does not match Controller Device ID!
+       Device ID - NVDATA:0x96 Controller:0x97
+```
+
+If you do not want to bother with cross-flashing then you can buy a ready to use Lenovo M1210 9300-4i in IT mode from [the Art of Server on eBay](https://ebay.us/sF5EFH).
 
 ### UEFI Shell
 
@@ -46,15 +51,22 @@ If you motherboard does not have built-in UEFI shell then you can follow this gu
 Regardless of UEFI shell, you would need a FAT32 formatted USB drive to host tools and firmware to flash the card.
 The files needed are:
 
-- `9300_P1616_OOB_20210529.bin`: the firmware itself.
+- `9300_P1616_OOB_20210529.bin`: the 8i firmware.
+- `SAS9300_4i_IT.bin`: the 4i firmware.
+- `MegaRec.exe`: DOS utility to completely erase SBR.
+- `sbrempty.bin`: empty file to completely erase SBR.
 - `sas3flash.efi`: the flashing tool.
 - `mptsas3.rom`: optional BIOS file for legacy (CSM) boot.
 - `mpt3x64.rom`: optional BIOS file for UEFI boot.
-- `HBA-LSI-9300-8i_Firmware_16.00.16.00 Release Notes.pdf`: official manual.
 
 ℹ *Most of the HBA cards have firmware and BIOS. Firmware is required for card's operation. BIOS provides UI for configuration. In IT mode it's recommended to skip the BIOS as no extra configuration is needed and the boot time is slightly faster without it.*
 
-All the files can be found online but also available to download from my blog: [`lenovo-m1210-p16-efi.zip`](/assets/2026-04-24-lenovo-m1210/lenovo-m1210-p16-efi.zip).
+All the files can be found online but also available to download from my blog:
+
+- [`lenovo-m1210-p16-4i-efi.zip`](/assets/2026-04-24-lenovo-m1210/lenovo-m1210-p16-4i-efi.zip).
+- [`lenovo-m1210-p16-8i-efi.zip`](/assets/2026-04-24-lenovo-m1210/lenovo-m1210-p16-8i-efi.zip).
+- [`megarec.zip`](/assets/2026-04-24-lenovo-m1210/megarec.zip).
+- [`sas3flash.zip`](/assets/2026-04-24-lenovo-m1210/sas3flash.zip).
 
 ### Boot into UEFI shell
 
@@ -80,7 +92,9 @@ If the card is detected, you should see something like this:
 From here you should save the `SAS Address`, `Board Assembly`, and `Board Tracer Number` values.
 I recommend writing all these values on a piece of paper and taking a photo of the screen.
 
-### Erase the M1210
+### Erase the M1210 without changing Device ID
+
+❗ Do this step only if you plan to flash firmware with the same Device ID, for example if you want to upgrade from P13 to P16 version.
 
 Before Lenovo M1210 can be flashed to IT mode it must be fully erased first. For that execute the following:
 
@@ -91,6 +105,36 @@ sas3flash.efi -o -e 7
 The flashing procedure takes a while and does not show any progress, just wait patiently until it finishes.
 
 ![](/assets/2026-04-24-lenovo-m1210/step-01.png)
+
+### Erasing SBR, optional
+
+❗ Do this step only if you are cross-flashing between different firmware versions, for example from 8i to 4i.
+
+Unfortunately, the needed tool is only available as a DOS executable, so you would need a DOS bootable USB flash drive.
+
+[Creating a MS-DOS bootable flash drive](https://support.onlogic.com/support-articles/how-tos/firmware-bios-drivers/creating-a-ms-dos-bootable-flash-drive).
+
+ℹ *The same USB flash drive can be DOS bootable in legacy (CSM) mode and EFI-Shell bootable in UEFI mode.*
+
+Once a DOS bootable USB flash drive is ready, copy `MegaRec.exe` and `sbrempty.bin` onto it then reboot into DOS.
+
+Check if the adapter is detected with:
+
+```
+megarec.exe -adpList
+```
+
+![](/assets/2026-04-24-lenovo-m1210/step-08.png)
+
+And then erase adapter's SBR with:
+
+```
+megarec.exe -writesbr 0 sbrempty.bin
+```
+
+![](/assets/2026-04-24-lenovo-m1210/step-09.png)
+
+Now you can reboot back into the EFI shell and flash your shiny new firmware.
 
 ### Flash the new firmware
 
@@ -169,3 +213,4 @@ If you used my files, then the firmware version should be set to `16.00.16.00`.
 - [LSI® SAS 9300-4i PCI Express® to 12Gb/s Serial Attached SCSI (SAS) Host Bus Adapter](https://docs.broadcom.com/doc/12353310).
 - [Avago® SAS 9300 12Gb/s SAS](https://docs.broadcom.com/doc/12352000).
 - [9300_8i_Package_P16_IR_IT_FW_BIOS_for_MSDOS_Windows](https://www.broadcom.com/support/download-search?dk=9300_8i).
+- [Index of /downloads/lsi/utilities/dos](https://artofserver.com/downloads/lsi/utilities/dos/).
